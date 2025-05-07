@@ -1,1 +1,3 @@
 # Phishing_Dataset
+
+The repository contains two datasets. The first is the original dataset, which includes all available columns. It represents the full version of the data and serves as the base for exploratory analysis and model development. The second dataset, referred to as the "new dataset," was generated using the featurewiz library, which performs automatic feature selection. This tool identifies and retains only the most relevant columns based on statistical analysis and feature importance techniques, effectively reducing dimensionality. As a result, the new dataset contains a subset of the original variables, focusing only on those deemed most informative for phishing detection using machine learning.
